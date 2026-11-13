@@ -1,0 +1,5 @@
+# Runtime dependencies for pydeef
+# (Tkinter ships with Python - see README for Linux instructions.)
+
+pypdf[crypto]>=5.0      # PDF reading/writing; [crypto] adds AES support for encrypted PDFs
+tkinterdnd2>=0.3        # optional: drag & drop (the app still works without it)
